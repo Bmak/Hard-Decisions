@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d5a2ba4145b71498906ce770abbf2d, type: 3}
+  m_Name: ArmyNurse
+  m_EditorClassIdentifier: 
+  firstName: Alice
+  lastName: Chase
+  description: Army Nurse
+  infected: 0
+  artwork: {fileID: 21300000, guid: 7b21dd2d3a5cb6c4eac1c882b051a298, type: 3}
+  cardsTraits:
+  - {fileID: 11400000, guid: 22119497f3bd2dc48a50cdad4fb74c91, type: 2}
+  - {fileID: 11400000, guid: 2346dc9bd7aaaf1439c93f84ab6f970f, type: 2}
+  - {fileID: 11400000, guid: 25645ddaec7f03f4d81bed13c1148d36, type: 2}
+  - {fileID: 11400000, guid: d23199e04d215384cb735a6b50ac0e05, type: 2}
+  - {fileID: 11400000, guid: d23199e04d215384cb735a6b50ac0e05, type: 2}
+  cardsLoot:
+  - {fileID: 11400000, guid: dcc9d928376f7334bab3f4196f0f5ed3, type: 2}
+  - {fileID: 11400000, guid: 9f0f6738aba83da41ae59b1ccd2b8541, type: 2}
+  - {fileID: 11400000, guid: 1bbd22aae71c1f04890d560114f765ae, type: 2}

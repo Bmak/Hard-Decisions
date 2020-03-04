@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d5a2ba4145b71498906ce770abbf2d, type: 3}
+  m_Name: Clerk
+  m_EditorClassIdentifier: 
+  firstName: Ruben
+  lastName: Shumer
+  description: Clerk
+  infected: 0
+  artwork: {fileID: 21300000, guid: 05ef65bec0a164844a3acbc4729babdf, type: 3}
+  Stats:
+  - Type: 5
+    Amount: 1
+  cardsTraits:
+  - {fileID: 11400000, guid: c84b5533b00acb7448bb6ae5df8a1662, type: 2}
+  - {fileID: 11400000, guid: fa5c1af7ad3053f4d96c2ca0d7b33c41, type: 2}
+  - {fileID: 11400000, guid: ef75f43aebb05254baae696f6c00c4d5, type: 2}
+  cardsLoot: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b6fdf006b275b4b9c3ac6e7ed8d74f, type: 3}
+  m_Name: Overwheight
+  m_EditorClassIdentifier: 
+  name: Overwheight
+  description: "OnDraw: \u043D\u0430 \u044D\u0442\u043E\u0442 \u0445\u043E\u0434 Kitchen+1
+    (\u0442\u0440\u0435\u0431. \u043F\u043E \u043A\u0443\u0445\u043D\u0435 +1), \u0448\u0430\u043D\u0441
+    20% \u2192 \u043D\u0430 \u044D\u0442\u043E\u0442 \u0445\u043E\u0434 Medical+1
+    (\u0442\u0440\u0435\u0431\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E \u041C\u0415\u0414
+    +1)"
+  artwork: {fileID: 21300000, guid: fe5a3c5b86c0f474090de80b487ff59a, type: 3}
+  affectedVital: 
+  affectAmount: 0

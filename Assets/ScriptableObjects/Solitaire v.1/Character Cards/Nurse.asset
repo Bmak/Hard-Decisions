@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d5a2ba4145b71498906ce770abbf2d, type: 3}
+  m_Name: Nurse
+  m_EditorClassIdentifier: 
+  firstName: Becky
+  lastName: Durant
+  description: Nurse
+  infected: 0
+  artwork: {fileID: 21300000, guid: d8697549fed91654195ae3afdd5c5f27, type: 3}
+  Stats:
+  - Type: 1
+    Amount: 1
+  cardsTraits:
+  - {fileID: 11400000, guid: 74062df31d8752e4f97dce1b38afcb9f, type: 2}
+  - {fileID: 11400000, guid: a8b8c73cd6615ef4fa2293dc287f7f79, type: 2}
+  - {fileID: 11400000, guid: 9b41cc29d5f623f40b8eeffed8b54a08, type: 2}
+  - {fileID: 11400000, guid: b3a3ee82b22e1354cb873bd054b13627, type: 2}
+  cardsLoot: []

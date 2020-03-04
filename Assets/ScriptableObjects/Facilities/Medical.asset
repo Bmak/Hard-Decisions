@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a5763305cf5f24f86a8d76b18721a7, type: 3}
+  m_Name: Medical
+  m_EditorClassIdentifier: 
+  Id: Medical
+  Name: Medical
+  Description: People are fixed and diagnosed here. Assign people cure or diagnose,
+    assign nurses and doctors to do that better.
+  ProfessionTypes: 0100000005000000
+  Vital: 1
+  Charge: 2

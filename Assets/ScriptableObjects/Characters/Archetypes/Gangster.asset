@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d5a2ba4145b71498906ce770abbf2d, type: 3}
+  m_Name: Gangster
+  m_EditorClassIdentifier: 
+  firstName: Casey
+  lastName: Mack
+  description: Gangster
+  infected: 0
+  artwork: {fileID: 21300000, guid: 1fea761c7da99d847a15548ade5b5561, type: 3}
+  cardsTraits:
+  - {fileID: 11400000, guid: 5c83377d6f877ca4797e9e95134a916c, type: 2}
+  - {fileID: 11400000, guid: d51a0d93f89dcd148b76e70e9688154d, type: 2}
+  - {fileID: 11400000, guid: 25645ddaec7f03f4d81bed13c1148d36, type: 2}
+  - {fileID: 11400000, guid: 2169969647096154890d7efc23ca6d5a, type: 2}
+  - {fileID: 11400000, guid: 44710fb528d8857438ecfbf7587640a5, type: 2}
+  cardsLoot:
+  - {fileID: 11400000, guid: 1fe0f2f44e11faf4f973715814b4b89e, type: 2}
+  - {fileID: 11400000, guid: 9f0f6738aba83da41ae59b1ccd2b8541, type: 2}
+  - {fileID: 11400000, guid: 0024c57438d8b0a4abb0027bdaf97fdd, type: 2}

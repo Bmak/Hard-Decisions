@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1403837153816300}
+  m_IsPrefabParent: 1
+--- !u!1 &1403837153816300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4439274024574108}
+  - component: {fileID: 114283060854666512}
+  - component: {fileID: 114173543159719388}
+  - component: {fileID: 114988229781546398}
+  - component: {fileID: 114981725676876122}
+  - component: {fileID: 114811072574458138}
+  m_Layer: 0
+  m_Name: CTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4439274024574108
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403837153816300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114173543159719388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403837153816300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7a2cd843a0ce2428d4e93a04da3a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeCam: {fileID: 0}
+  minFOV: 50
+  maxFOV: 100
+  zoomFactor: -15
+  moveFactor: 10
+  moveLimits: {x: 500, y: 250, z: 0}
+--- !u!114 &114283060854666512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403837153816300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f3be5278a970b4288a4b6851633d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelQueue: {fileID: 0}
+  panelCardsTraits: {fileID: 0}
+  panelCardsLoot: {fileID: 0}
+  cardSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gameUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  heartPool: {fileID: 0}
+  verdictText: {fileID: 0}
+  btnStartNewDay: {fileID: 0}
+  btnLetIn: {fileID: 0}
+  btnKickOut: {fileID: 0}
+  prefabHeartUI: {fileID: 1372081302745508, guid: efd115b665bf6b24aa4e4195a457bd34,
+    type: 2}
+  refugeesDailyAve: 4
+  refugeesDailyFlux: 1
+  infectedDailyAve: 2
+  infectedDailyFlux: 1
+  heartsAmount: 2
+  cardsDrawnDaily: 4
+  refugeeCardsOpenLimit: 2
+  playingCharsList: []
+  currentCharacter: {fileID: 0}
+  traitCardsLimit: 4
+  lootCardsLimit: 1
+  infectionChance: 0.5
+  fakeHealthCardChance: 0.12
+  healthyCardChance: 0.12
+  prefabCharUI: {fileID: 1429805518612514, guid: a3b3ec79a9c7444469f280a520776459,
+    type: 2}
+  prefabCardUI: {fileID: 1302972654676350, guid: efc5a2e92a11a344289e04e70ba057af,
+    type: 2}
+  charInfoList:
+  - {fileID: 11400000, guid: b39a0ff7ef3b5624f9f4f3c18bd4e0c9, type: 2}
+  - {fileID: 11400000, guid: b0d2e913110c6bd4f8578204e2361ac2, type: 2}
+  - {fileID: 11400000, guid: 66646271239102f4385f3c0eced2b142, type: 2}
+  - {fileID: 11400000, guid: 40f8d4cda3485334e8bfa314f1da0cfb, type: 2}
+  - {fileID: 11400000, guid: 1acfb2bacc14bec49b066a9872925265, type: 2}
+  traitCards:
+  - {fileID: 11400000, guid: ea83b010571d7e44483bc1dd2ae17cff, type: 2}
+  - {fileID: 11400000, guid: d189806dcc6d52b41839893e96b1c702, type: 2}
+  - {fileID: 11400000, guid: 69f2f0f8471e2c64b88be1167048ffe7, type: 2}
+  - {fileID: 11400000, guid: 25645ddaec7f03f4d81bed13c1148d36, type: 2}
+  - {fileID: 11400000, guid: dbcf5b9d35f53924dbe4987454ca645a, type: 2}
+  - {fileID: 11400000, guid: 90250b4b9d117dc44bb8bfa73f141afc, type: 2}
+  - {fileID: 11400000, guid: 828ab13c100b2074191762c0cdd1df12, type: 2}
+  - {fileID: 11400000, guid: 2169969647096154890d7efc23ca6d5a, type: 2}
+  - {fileID: 11400000, guid: a23df84aeb979fb4cbee5f359a002eff, type: 2}
+  - {fileID: 11400000, guid: 86918df15e5ef604989d82231f8606b0, type: 2}
+  - {fileID: 11400000, guid: 44710fb528d8857438ecfbf7587640a5, type: 2}
+  - {fileID: 11400000, guid: a15e25d06b467d047902588e134e3c96, type: 2}
+  - {fileID: 11400000, guid: d23199e04d215384cb735a6b50ac0e05, type: 2}
+  backCards:
+  - {fileID: 11400000, guid: 2346dc9bd7aaaf1439c93f84ab6f970f, type: 2}
+  - {fileID: 11400000, guid: d51a0d93f89dcd148b76e70e9688154d, type: 2}
+  - {fileID: 11400000, guid: aae21ab7fc7df244db903d24686b704c, type: 2}
+  - {fileID: 11400000, guid: af0d79722454ba042837faa70b51b255, type: 2}
+  - {fileID: 11400000, guid: 8a0d7303fbd33374e917870c35bf9049, type: 2}
+  lootCards:
+  - {fileID: 11400000, guid: 622d7105402db714ba28b884c96614e7, type: 2}
+  - {fileID: 11400000, guid: 1fe0f2f44e11faf4f973715814b4b89e, type: 2}
+  - {fileID: 11400000, guid: 9f0f6738aba83da41ae59b1ccd2b8541, type: 2}
+  - {fileID: 11400000, guid: 514a33933992947439f2b0a4968851d4, type: 2}
+  - {fileID: 11400000, guid: dcc9d928376f7334bab3f4196f0f5ed3, type: 2}
+  - {fileID: 11400000, guid: 1bbd22aae71c1f04890d560114f765ae, type: 2}
+  - {fileID: 11400000, guid: e8b56c137b385b34991d6ef0e7c4b818, type: 2}
+  - {fileID: 11400000, guid: 0024c57438d8b0a4abb0027bdaf97fdd, type: 2}
+  - {fileID: 11400000, guid: 4188a4346011b3d4a896dd571447b44e, type: 2}
+  - {fileID: 11400000, guid: 118d669ed30097e41a7730074154ec69, type: 2}
+  - {fileID: 11400000, guid: 4b9deced9bd73cd45815ea05acc76179, type: 2}
+  - {fileID: 11400000, guid: dfabe0f3a6b3e9942b6a3a2ff4f6831a, type: 2}
+  - {fileID: 11400000, guid: 638ee9488343b71498b6763b2df48b93, type: 2}
+  - {fileID: 11400000, guid: 806c38fd6c348884c88759e502bb7310, type: 2}
+  - {fileID: 11400000, guid: 0b3935aaa3907964fa464f28041555c8, type: 2}
+  charFirstNamesM:
+  - Jack
+  - John
+  - Mike
+  - Alex
+  - Sam
+  - Samuel
+  - Chris
+  - Marc
+  - Vick
+  - Cole
+  - TJ
+  - Cory
+  - Krzysztof
+  - Ismael
+  - Tyler
+  - Damian
+  - Lito
+  - Kirk
+  - Rupert
+  charFirstNamesF:
+  - Jill
+  - Jane
+  - Michelle
+  - Alex
+  - Samantha
+  - Sam
+  - Kris
+  - Mary
+  - Vicky
+  - Carol
+  - Liz
+  - Maya
+  - Miriam
+  - Gabriela
+  - Bettany
+  - Selma
+  - Greta
+  - Lucy
+  - Casey
+  charLastName:
+  - Smith
+  - Cooper
+  - Johnson
+  - Galestein
+  - Sadowski
+  - Nichiporchik
+  - DeSouza
+  - Ishimura
+  - Lee
+  - Gonzalez
+  - Kolonski
+  - Shemberg
+  - Boon
+  - Wisemahn
+  - White
+  - Scott
+  - Shazell
+  - Palmer
+  - Kruchek
+  portraitsMale:
+  - {fileID: 21300000, guid: 42269ef98f0f3a346b192a98c5037418, type: 3}
+  - {fileID: 21300000, guid: 6c51821563fec70478430fce3a549d5e, type: 3}
+  - {fileID: 21300000, guid: 2b02ba4ce6b24d9429a2927f1445359b, type: 3}
+  - {fileID: 21300000, guid: 91a048f5603aea642bf9ee4b9e49e228, type: 3}
+  - {fileID: 21300000, guid: 7019311cca1719c47aaca79020e9f7ff, type: 3}
+  - {fileID: 21300000, guid: 3b465f8d7a536044c9e8af5fc4d1652c, type: 3}
+  - {fileID: 21300000, guid: b9caef84eb9883e4f88c4c77959d8f35, type: 3}
+  - {fileID: 21300000, guid: 18b3777f882ffc444b18818b1e6ca6ca, type: 3}
+  - {fileID: 21300000, guid: 07141a64b41559f46a0a2293f8c63661, type: 3}
+  - {fileID: 21300000, guid: 05ef65bec0a164844a3acbc4729babdf, type: 3}
+  - {fileID: 21300000, guid: e7d55421ed2e1ad46a05c015d2710b86, type: 3}
+  - {fileID: 21300000, guid: c30b86cb1ae04da43a880698e1b981a2, type: 3}
+  - {fileID: 21300000, guid: e511bad51a4655f4fafdc80655ec4160, type: 3}
+  - {fileID: 21300000, guid: 1fea761c7da99d847a15548ade5b5561, type: 3}
+  - {fileID: 21300000, guid: 1f608a186956e7643860feb6f4920e56, type: 3}
+  - {fileID: 21300000, guid: ab655f0a5f8c9704f92fa40d040426c5, type: 3}
+  - {fileID: 21300000, guid: 22cef5a1cd8abf6409e5cb394836debd, type: 3}
+  portraitsFemale:
+  - {fileID: 21300000, guid: d8697549fed91654195ae3afdd5c5f27, type: 3}
+  - {fileID: 21300000, guid: 0dde3230484938945a42b4fe8d828b43, type: 3}
+  - {fileID: 21300000, guid: 4eef1d5964776554caf3daf8ebcd10ac, type: 3}
+  - {fileID: 21300000, guid: f746dd840cf52e24f861af9264070cc0, type: 3}
+  - {fileID: 21300000, guid: 3902faa3f79dac7409c3162be2b715fe, type: 3}
+  - {fileID: 21300000, guid: 7b21dd2d3a5cb6c4eac1c882b051a298, type: 3}
+  - {fileID: 21300000, guid: 9de962d14825c214899ab2fbd1e211c1, type: 3}
+  - {fileID: 21300000, guid: 4d47127791bed8b4d89fe33f4d2cfc09, type: 3}
+  - {fileID: 21300000, guid: a5c949302956e624da9a620d366cb614, type: 3}
+  - {fileID: 21300000, guid: b4630352c85b10d4a9e1d501295d7c67, type: 3}
+  - {fileID: 21300000, guid: b2f123bdc50b63e4e9c3cdd7e4c9df71, type: 3}
+  - {fileID: 21300000, guid: dfa0d3e211e10f044a5fbb129fc4b693, type: 3}
+  - {fileID: 21300000, guid: 45d3dbf58faf3904c9bad7c47093b0a2, type: 3}
+  - {fileID: 21300000, guid: 32fc421958d3cc24290861bf2d11a60d, type: 3}
+  - {fileID: 21300000, guid: 47270866d2d807542a0aaff66b210ede, type: 3}
+  - {fileID: 21300000, guid: 9f90772aa6d0ba645a01ecdd4190b610, type: 3}
+  - {fileID: 21300000, guid: 2bb065b9f92d8ec49bc2613d186b1b03, type: 3}
+  infectedCard: {fileID: 11400000, guid: 22119497f3bd2dc48a50cdad4fb74c91, type: 2}
+  healthyCard: {fileID: 11400000, guid: edbc27ce03dab1248ad43e46829dbc46, type: 2}
+  healthCards:
+  - {fileID: 11400000, guid: 16b0f47d9817da445bcd1f83690e3e95, type: 2}
+  - {fileID: 11400000, guid: 2589f523723d61b488469e1858e2c66f, type: 2}
+  - {fileID: 11400000, guid: 216463f7d544ad048b56f9fa8e35675c, type: 2}
+  - {fileID: 11400000, guid: 5c83377d6f877ca4797e9e95134a916c, type: 2}
+  - {fileID: 11400000, guid: 7c8c6ad322ac33a468124156f894f4b9, type: 2}
+--- !u!114 &114811072574458138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403837153816300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad046e28088c71418dbe75dacf00e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitsPool: []
+  charactersOnHold: []
+  facilityHold: {fileID: 0}
+--- !u!114 &114981725676876122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403837153816300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2495e3398137fbf42b526a5344ba9486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawPile: []
+  discardPile: []
+  hand: []
+  drawCardholder: {fileID: 0}
+  discardCardholder: {fileID: 0}
+  handCardholder: {fileID: 0}
+--- !u!114 &114988229781546398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403837153816300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef5977cf95c71642aad91b6a2848b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
